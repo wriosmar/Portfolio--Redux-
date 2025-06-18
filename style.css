@@ -53,13 +53,17 @@ h2 {
     justify-content: center;
 }
 
+.container .projects {
+    flex: 1 1 0;
+}
+
 .project {
     background-color: #FDF4E3;
     border: 1px solid #333;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
-    width: 300px;
+    width: 100%;
 }
 
 .project h3 {
@@ -68,9 +72,12 @@ h2 {
 
 .LEGO-container {
     display: flex;
-    flex: 1 1 0;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.LEGO-container .job {
+    flex: 1 1 0;
 }
 
 .job {
