@@ -1,0 +1,83 @@
+body {
+    background-color: #FFFFF5;
+}
+
+header {
+    background-color: #FDF4E3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+#profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#profile-image img{
+    width: auto;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 50%;
+}
+
+#about {
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.project {
+    background-color: #FDF4E3;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+}
+
+.project h3 {
+    text-align: center;
+}
+
+.LEGO-container {
+    display: flex;
+    flex: 1 1 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.job {
+    background-color: #FDF4E3;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: auto;
+}
