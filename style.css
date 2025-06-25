@@ -70,16 +70,6 @@ h2 {
     text-align: center;
 }
 
-.LEGO-container {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-
-.LEGO-container .job {
-    flex: 1 1 0;
-}
-
 .job {
     background-color: #FDF4E3;
     border: 1px solid #333;
